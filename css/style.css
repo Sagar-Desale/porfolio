@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.navbar{
+  display: flex;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+  justify-content: center;
+  background: rgba(85, 0, 255,0.5);
+  font-family: 'Poppins', sans-serif;
+  position: fixed;
+}
+.logo{
+  width: 40%;
+}
+.logo img{
+  width: 10%;
+  cursor: pointer;
+}
+.manus ul{
+  display: flex;
+  list-style: none;
+}
+.manus ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-right: 15px;
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+/* burger */
+.burger{
+  display: none;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.burger .b-line{
+  width: 20px;
+  height: 2px;
+  background: #fff;
+  margin-top: 5px;
+}
+
+
+/* header */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120vh;
+  background: rgba(85, 0, 255,1);
+  font-family: 'Poppins', sans-serif;
+}
+.header .info-content{
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.info-content .sm-text{
+  font-size: 22px;
+}
+.info-content .big-text{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+.info-content .md-text{
+  font-size: 28px;
+  text-transform: uppercase;
+  animation: text 0.5s infinite;
+}
+.info-content button{
+  font-size: 16px;
+  padding: 5px 10px;
+  background: none;
+  border: 1px solid #ff0040;
+  margin-top: 20px;
+  border-radius: 10px 0;
+  transition: 0.5s;
+}
+
+.header .content-img{
+  width: 50%;
+}
+.header .content-img img{
+  width: 50%;
+  border: 2px solid #000;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.5) 5px 5px 10px;
+}
+
+/* section styling */
+.section{
+  padding: 30px 10px;
+  margin: 30px 0;
+  font-family: 'Poppins', sans-serif;
+}
+.section h1{
+  text-align: center;
+  font-size: 40px;
+  color: rgba(85, 0, 255,1);
+  text-transform: uppercase;
+}
+
+/* about section */
+.about{
+  margin: 20px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px, rgba(85, 0, 255,1) 2px 2px 10px;
+}
+.about-box{
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.about-content{
+  width: 50%;
+  margin: 0 20px;
+}
+.about-content .title{
+  text-align: center;
+  padding: 10px 0;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.about-img{
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.about-img img{
+  width: 50%;
+  border: 3px solid #808080;
+  border-radius: 30px 0;
+  box-shadow: rgba(85, 0, 255,0.5) 2px 5px 10px;
+}
+
+
+/* education section */
+.education-content{
+  display: flex;
+  margin-left: 80px;
+}
+.v-line{
+  width: 1px;
+  height: auto;
+  background: #000;
+}
+.right-side{
+  margin-left: 20px;
+}
+.edu-content{
+  margin: 20px 0;
+}
+.edu-content .edu-title{
+  font-size: 22px;
+}
+.edu-content .info{
+  font-size: 16px;
+  width: 600px;
+}
+
+/* skills section */
+.skills-content{
+  width: 700px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.name{
+  display: flex;
+  justify-content: space-between;
+}
+.name h2{
+  font-size: 18px;
+  padding: 5px 0;
+}
+.sklill-line li{
+  margin-bottom: 15px;
+  border-radius: 10px 0;
+  list-style: none;
+  height: 15px;
+  background: rgba(85, 0, 255,1);
+}
+.sklill-line .badminton{
+  width: 90%;
+  animation: badminton 2s ease-out;
+}
+
+.sklill-line .cricket{
+  width: 70%;
+  animation: cricket 2s ease-out;
+}
+
+.sklill-line .kho{
+  width: 60%;
+  background: #fc8403;
+  animation: kho 2s ease-out;
+}
+
+.sklill-line .kabaddi{
+  width: 80%;
+  animation: kabaddi 2s ease-out;
+}
+
+/* contact section */
+.contact p{
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+}
+.contact-info{
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+}
+.contact-info ul li{
+  font-size: 16px;
+}
+.contact-info ul a{
+  color: rgba(85, 0, 255,1);
+  text-decoration: none;
+}
+
+
+/* footer */
+.footer{
+  height: 50px;
+  background: rgba(85, 0, 255,1);
+  padding: 20px 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+.footer i{
+  width: 25px;
+  color: #fff;
+  padding: 5px;
+  margin: 10px 5px;
+  border: 1px solid #fff;
+  border-radius: 10px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.footer p{
+  font-size: 12px;
+}
+.footer a{
+  text-decoration: none;
+  color: #fff;
+}

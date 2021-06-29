@@ -1,0 +1,74 @@
+/* navbar */
+.manus ul li a:hover{
+  color: #ff0033;
+}
+
+/* header text */
+@keyframes text {
+  from{
+    color: #000;
+  }
+  to{
+    color: #fff;
+  }
+}
+
+/* button */
+.info-content button:hover{
+  background: #ff0040;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 2px 5px;
+}
+
+
+
+/* skill bar */
+@keyframes badminton {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 90%;
+  }
+}
+@keyframes cricket {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 70%;
+  }
+}
+@keyframes kho {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 60%;
+  }
+}
+@keyframes kabaddi {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+
+
+
+
+/* footer */
+.footer i:hover{
+  box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 10px;
+}
+.footer .fb:hover{
+  color: #0800ff;
+}
+.footer .insta:hover{
+  color: #ff2200;
+}
+.footer .gmail:hover{
+  color: #ff0000;
+}
